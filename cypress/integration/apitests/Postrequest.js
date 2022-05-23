@@ -9,11 +9,9 @@ describe('Test APIs' ,() =>{
             method: 'POST',
             url: 'https://dummy.restapiexample.com/api/v1/create',
             body:{
-                "id": "27",
-                "employee_name": "Mimee sundae",
-                "employee_salary": "500000",
-                "employee_age": "35",
-                "profile_image": ""
+                "employee_name": "John Doe",
+                "employee_salary": 420000,
+                "employee_age": 36
             }
             
 
@@ -22,5 +20,20 @@ describe('Test APIs' ,() =>{
         expect(response.body.message).contains("Successfully! Record has been added.")
     })
 
+
+    cy.request({
+        method: 'GET',
+        url: 'https://dummy.restapiexample.com/api/v1/employee/3941'
+    }).then((response)=>{
+        expect(response.status).to.eq(200)
+        expect(response.body.data).to.eq(null)
+    
     })
+
+    
+    
+    })
+    
+
+
 })
