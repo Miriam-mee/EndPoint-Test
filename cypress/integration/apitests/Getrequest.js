@@ -4,7 +4,7 @@ describe('Test APIs', () =>{
 
 it('Get all employee data', () =>{
 cy.request({
-    method: 'GET',
+    method: "GET",
     url: 'https://dummy.restapiexample.com/api/v1/employees',
 }).then((response)=>{
     expect(response.status).to.eq(200)

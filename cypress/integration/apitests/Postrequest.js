@@ -6,7 +6,7 @@ describe('Test APIs' ,() =>{
     it('Create a new record in database' ,()=>{
         cy.request({
 
-            method: 'POST',
+            method: "POST",
             url: 'https://dummy.restapiexample.com/api/v1/create',
             body:{
                 "employee_name": "John Doe",

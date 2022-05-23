@@ -5,7 +5,7 @@ describe('Test APIs' ,()=> {
 it('Update an employee record', ()=>{
 
 cy.request({
-    method: 'PUT',
+    method: "PUT",
     url: 'https://dummy.restapiexample.com/api/v1/update/21',
     body:{
         "employee_name": "Sunny Doe"

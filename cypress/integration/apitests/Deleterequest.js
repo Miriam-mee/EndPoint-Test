@@ -6,7 +6,7 @@ describe('Test APIS', () =>{
        
     
         cy.request({
-            method : 'DELETE',
+            method : "DELETE",
             url: 'https://dummy.restapiexample.com/api/v1/delete/3941'
         })
         .then((response) =>{
