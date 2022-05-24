@@ -2,16 +2,13 @@ PROJECT-  AUTOMATE ENDPOINTS USING CYPRESS
 
 
 
-
-**How to  set up locally**
-
+SET UP
 
 #Create a folder in any desired location on your device
 
-#cd into the folder created
-cd 'name of folder created'
+#create directory
 
-#to install dependencies
+#install dependencies
 npm init -y
 
 #Install cypress 
@@ -20,7 +17,7 @@ npm cypress install --save--dev
 #open cypress
 npx cypress open 
 
-#To create a folder
+#create a folder
 -Right click on 'Integration folder' and click on 'new folder'
 - Right click on the folder created and select 'new file', name the file with the extension .js
 
