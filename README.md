@@ -9,7 +9,7 @@ SET UP
 #create directory
 
 #install dependencies
-npm init -y
+ npm init -y
 
 #Install cypress 
 npm cypress install --save--dev  
