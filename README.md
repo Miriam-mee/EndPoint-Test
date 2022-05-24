@@ -1,5 +1,7 @@
-"project": "automate endpoints using cypress",
-"description": "using cypress as a testing tool to automate and assert endpoints"
+PROJECT-  AUTOMATE ENDPOINTS USING CYPRESS
+
+
+
 
 **How to  set up locally**
 
