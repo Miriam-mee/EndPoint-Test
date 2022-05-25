@@ -1,8 +1,8 @@
-PROJECT-  AUTOMATE ENDPOINTS USING CYPRESS
+#PROJECT-  AUTOMATE ENDPOINTS USING CYPRESS
 
 
 
-SET UP
+**SET UP**
 
 #Create a folder in any desired location on your device
 
