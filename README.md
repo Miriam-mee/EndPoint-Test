@@ -23,6 +23,7 @@ Use VScode as IDE
 ###### Running Test
 ```
 npx cypress open
+
 ```
 ###### Run Locally
 ```

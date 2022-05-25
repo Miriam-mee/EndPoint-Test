@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+node_modules
+.DS_Store
+=======
 # Ignore Mac system files
 .DS_store
 
@@ -12,3 +16,4 @@ node_modules
 
 # Ignore SASS config files
 .sass-cache
+>>>>>>> c81aa1dc41cfd507a1e2a75154e06b6213e2a5fa
