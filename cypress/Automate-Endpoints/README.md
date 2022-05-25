@@ -1,1 +1,0 @@
-#Automate Endpoints using Cypress
