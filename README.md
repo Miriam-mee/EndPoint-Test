@@ -1,8 +1,20 @@
-#PROJECT-  AUTOMATE ENDPOINTS USING CYPRESS
+#PROJECT-  AUTOMATE ENDPOINTS USING CYPRESS#
 
+###DESCRIPTION
 
+Used cypress as a testing tool to automate an assert the following routes;
+
+```
+/employee
+/employee/{id}
+/create
+/update/{id}
+/delete/{id}
+```
 
 **SET UP**
+
+######DEPLOYMENT
 
 #Create a folder in any desired location on your device
 
