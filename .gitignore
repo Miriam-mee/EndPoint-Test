@@ -1,2 +1,19 @@
+<<<<<<< HEAD
 node_modules
 .DS_Store
+=======
+# Ignore Mac system files
+.DS_store
+
+# Ignore node_modules folder
+node_modules
+
+# Ignore all text files
+*.txt
+
+# Ignore files related to API keys
+.env
+
+# Ignore SASS config files
+.sass-cache
+>>>>>>> c81aa1dc41cfd507a1e2a75154e06b6213e2a5fa
