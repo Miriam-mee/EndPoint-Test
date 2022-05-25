@@ -38,7 +38,7 @@ npm install cypress --save-dev
 Since these are fake online REST APIs, there are some limitiations.
 Example, after creating a POST request, this returned a unique ID, to verify that the data has been created successfuly, i retrieved the data using GET method. however, anytime you run the same request, the ID changes intemitently.
 
-Alos, after performing a delete request, to verify that the data has been successfully deleted, i performed a GET request and this returned data as null, and the response message as > Successfully! Record has been fetched.
+> Also, after performing a delete request, to verify that the data has been successfully deleted, i performed a GET request and this returned data as null, and the response message as > Successfully! Record has been fetched.
 
 
 
