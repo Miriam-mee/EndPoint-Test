@@ -26,7 +26,7 @@ npx cypress open
 ```
 ###### Run Locally
 ```
-npm init -y
+npm install
 npm install cypress --save-dev
 ```
 
