@@ -31,7 +31,11 @@ npm install cypress --save-dev
 ```
 
 
+####LIMITIATIONS
+
 > Verified each route on Postman locally to ascertain the HTTP response as well as verify the data returned from the response body.
+Since these are fake online REST APIs, there are some limitiations.
+Example, after creatung a POST request, this returned a unique ID, to verify that the data has been created successfuly, i retrieved the data using GET method. however, anytime you run the same request, the ID changes intemitently.
 
 
 
