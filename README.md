@@ -1,6 +1,6 @@
-#PROJECT-  AUTOMATE ENDPOINTS USING CYPRESS#
+# PROJECT-  AUTOMATE ENDPOINTS USING CYPRESS
 
-###DESCRIPTION
+### DESCRIPTION
 
 Used cypress as a testing tool to automate an assert the following routes;
 
@@ -13,31 +13,24 @@ Used cypress as a testing tool to automate an assert the following routes;
 ```
 
 **SET UP**
-
-######DEPLOYMENT
-
-#Create a folder in any desired location on your device
-
-#create directory
-
-#install dependencies
- npm init -y
-
-#Install cypress 
-npm cypress install --save--dev  
-
-#open cypress
-npx cypress open 
-
-#create a folder
--Right click on 'Integration folder' and click on 'new folder'
-- Right click on the folder created and select 'new file', name the file with the extension .js
-
-
-
-
-Verified each route on Postman locally to ascertain the HTTP response as well as verify the data returned from the response body.
-
-
-#to run test
+###### Deployment
+```
+Download Node js and NPM
+install Node js
+create a folder in a desired location
+Use VScode as IDE
+```
+###### Running Test
+```
 npx cypress open
+```
+###### Run Locally
+```
+npm init -y
+npm install cypress --save-dev
+```
+
+
+> Verified each route on Postman locally to ascertain the HTTP response as well as verify the data returned from the response body.
+
+
